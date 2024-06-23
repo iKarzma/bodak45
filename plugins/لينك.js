@@ -4,9 +4,9 @@ const handler = async (m, {conn, args}) => {
   conn.reply(m.chat, 'https://chat.whatsapp.com/' + await conn.groupInviteCode(group), m, {
     contextInfo: {externalAdReply: {mediaUrl: null, mediaType: 1, description: null,
       title: 'لينك الجروب',
-      body: 'VENOM 𝐵𝛩𝑇',
+      body: 'Henry - Bot',
       previewType: 0, thumbnail: fs.readFileSync('./Menu.jpg'),
-      sourceUrl: `https://chat.whatsapp.com/Bu7cwDjLYwLJ93yyUD1tE1`}}});
+      sourceUrl: `https://chat.whatsapp.com/JAi6fK0lClQDJASSxoXQTx`}}});
 };
 handler.help = ['linkgroup'];
 handler.tags = ['group'];
