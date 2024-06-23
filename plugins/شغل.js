@@ -62,7 +62,7 @@ await await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}
 } catch {   
 try {  
 let mediaa = await ytMp4(yt_play[0].url)
-await conn.sendMessage(m.chat, { video: { url: mediaa.result }, fileName: `error.mp4`, caption: `_𝐵𝑌:𝑺𝐻𝐴𝐷𝑂𝑊&𝐸𝐿𝐺𝐴𝑍𝐴𝑅_`, thumbnail: mediaa.thumb, mimetype: 'video/mp4' }, { quoted: m })     
+await conn.sendMessage(m.chat, { video: { url: mediaa.result }, fileName: `error.mp4`, caption: `_𝐵𝑌:Karzma_`, thumbnail: mediaa.thumb, mimetype: 'video/mp4' }, { quoted: m })     
 } catch {  
 try {
 let lolhuman = await fetch(`https://api.lolhuman.xyz/api/ytvideo2?apikey=${lolkeysapi}&url=${yt_play[0].url}`)    
@@ -79,7 +79,7 @@ throw "*السيرفر مات ادعيلو*"}
 }
 handler.help = ["y", "y2"].map((v) => v + " < busqueda >")
 handler.tags = ["downloader"]
-handler.command = /^y2?$/i
+handler.command = /^شغل$/i
 export default handler
 
 async function search(query, options = {}) {
