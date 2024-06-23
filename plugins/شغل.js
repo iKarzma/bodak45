@@ -1,7 +1,9 @@
-import fetch from "node-fetch"
-import yts from "yt-search"
-import ytdl from 'ytdl-core'
-import axios from 'axios'
+import ytdl from 'ytdl-core';
+import yts from 'yt-search';
+import fs from 'fs';
+import { pipeline } from 'stream';
+import { promisify } from 'util';
+import os from 'os';
 import { youtubedl, youtubedlv2, youtubedlv3 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
 if (!text) throw `ادخل عنوان للبحث*\n\n*—◉ مثال:*\n*${usedPrefix + command} انمي ناروتو*`
