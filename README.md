@@ -1,5 +1,5 @@
 <p align="center">  
-  <a href="https://youtu.be/WcA7GZuaN0A">
-    <img alt="Guru" height="300" src="https://telegra.ph/file/be30b6f0bd6ca81dfce4c.jpg">
+  <a href="https://youtube.com/@abdulrahmen-ahmed?si=xGD_0FtR89X93Ium">
+    <img alt="Guru" height="300" src="https://telegra.ph/file/9bc497cad577dc0429834.jpg">
     <h1 align="center">Henry - BOT</h1>
   </a>
