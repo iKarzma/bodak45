@@ -1551,7 +1551,7 @@ global.dfail = (type, m, conn) => {
       restrict: '*╮───────────────╭ـ\n│ *➣ تم الغاء الأمر من قبل المطور! ┇👑*\n╯───────────────╰ـ',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] دعوه - للجروب', body: 'ᴛʜᴇ ᴍʏsᴛɪᴄ - ʙᴏᴛ', thumbnail: imagen1, sourceUrl: 'https://chat.whatsapp.com/Bu7cwDjLYwLJ93yyUD1tE1'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] دعوه - للجروب', body: 'Henry - Bot', thumbnail: imagen1, sourceUrl: 'https://chat.whatsapp.com/JAi6fK0lClQDJASSxoXQTx'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
