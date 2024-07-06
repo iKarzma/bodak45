@@ -44,7 +44,7 @@ else throw '*خطأ ، يرجى المحاولة مرة أخرى. لا تنسي 
 }}
 handler.help = ['stiker (caption|reply media)', 'stiker <url>', 'stikergif (caption|reply media)', 'stikergif <url>']
 handler.tags = ['sticker']
-handler.command = /^ستك|ملصق?$/i
+handler.command = /^|ملصق?$/i
 export default handler
 
 const isUrl = (text) => {
